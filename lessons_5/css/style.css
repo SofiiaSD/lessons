@@ -1,0 +1,224 @@
+@import url(reset.css);
+
+/* Google fonts */
+@import url(https://fonts.googleapis.com/css?family=Poppins:600,700);
+@import url(https://fonts.googleapis.com/css?family=Inter:400,500);
+
+/* Causten */
+@font-face {
+   font-family: "Causten";
+   src: url(../fonts/Causten-Regular.woff2) format(woff2), url(../fonts/Causten-Regular.woff) format(woff);
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: "Causten";
+   src: url(../fonts/Causten-Medium.woff2) format(woff2), url(../fonts/Causten-Medium.woff) format(woff);
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: "Causten";
+   src: url(../fonts/Causten-SemiBold.woff2) format(woff2), url(../fonts/Causten-SemiBold.woff) format(woff);
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* FHPhemister */
+@font-face {
+   font-family: "FHPhemister";
+   src: url(../fonts/FHPhemister-Light.woff2) format(woff2), url(../fonts/FHPhemister-Light.woff) format(woff);
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "FHPhemister";
+   src: url(../fonts/FHPhemister-Regular.woff2) format(woff2), url(../fonts/FHPhemister-Regular.woff) format(woff);
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "FHPhemister";
+   src: url(../fonts/FHPhemister-RegularItalic.woff2) format(woff2), url(../fonts/FHPhemister-RegularItalic.woff) format(woff);
+   font-weight: 400;
+   font-style: italic;
+   font-display: swap;
+}
+ 
+@font-face {
+   font-family: "FHPhemister";
+   src: url(../fonts/FHPhemister-Medium.woff2) format(woff2), url(../fonts/FHPhemister-Medium.woff) format(woff);
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "FHPhemister";
+   src: url(../fonts/FHPhemister-SemiBold.woff2) format(woff2), url(../fonts/FHPhemister-SemiBold.woff) format(woff);
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}
+
+body{
+   font-family: "Causten", sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+}
+
+.start-page h1{
+font-family: "FHPhemister", sans-serif;
+font-weight: 600;
+font-size: 30px;
+text-align: center;
+line-height: 1.60;
+}
+
+.hike .tichino{
+   color: #166678;
+   font-style: normal;
+   font-weight: 600;
+}
+
+.alps .alp{
+color: #6B77E5;
+}
+
+.river .localriver{
+   color: #0092ca;
+}
+
+.geneva .city{
+   color: #975a5e;
+}
+
+.slopes .europa{
+   color:#bb5a5a ;
+}
+
+.paraglider .cermat{
+   color: #4d727e;
+}
+
+.doubs .doub{
+   color: #3ab1c8;
+}
+.hike span{
+color: #764f51;
+font-family: "FHPhemister", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.paragraph p{
+   line-height: 1.30;
+   word-spacing: 2px;
+   line-height: 1.60;
+}
+
+.paragraph h2{
+   font-family: "FHPhemister", sans-serif;
+   font-weight: 600;
+   font-size: 18px;
+   text-align: center;
+   letter-spacing: 2px;
+   line-height: 1.60;
+}
+
+.alps a{
+   text-shadow: 6px -4px 2px #dbd8e3, 6px 6px 3px #606470;
+   text-decoration: underline;
+   font-family: "FHPhemister", sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+
+}
+
+.geneva a{
+text-shadow: 2px 2px 2px #f3cba5, -2px -2px 2px #c7b198;
+text-decoration: underline;
+font-family: "FHPhemister", sans-serif;
+font-weight: 500;
+font-size: 14px;
+
+}
+
+.paraglider a{
+   text-shadow: 2px 4px 4px #61b292,3px -4px 4px #394a51 ;
+   text-decoration: underline;
+   font-family: "FHPhemister", sans-serif;
+   font-weight: 500;
+   font-size: 14px;
+
+}
+
+
+.doubs a{
+text-shadow: 10px -4px 5px #c38b8b, 4px 6px 5px #c38b8b;
+text-decoration: underline;
+font-family: "FHPhemister", sans-serif;
+font-weight: 500;
+font-size: 14px;
+
+}
+
+.title,
+ .sub-title{
+   font-family: "Poppins,", sans-serif;
+   font-weight: 600;
+}
+
+.title{
+   color: #37393F;
+   font-size: 30px;
+   line-height: 1.27;
+   text-transform: capitalize;
+}
+
+.sub-title{
+   color: #6B77E5;
+   font-size: 20px;
+   line-height: 1.27;
+}
+.project{
+   color: #37393F;
+   font-family: "Poppins,", sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 1.27;
+}
+
+.text{
+color: #7D7D7D;
+font-size: 18px;
+}
+
+
+.text p{
+font-family:"Inter", sans-serif;
+font-weight: 400;
+}
+
+ ul, 
+ ol{
+ font-family:"Inter", sans-serif;
+font-size: 18px;
+font-weight: 500;
+}
+
+.figma{
+   font-family: "FHPhemister", sans-serif;
+   font-weight: 600;
+   font-size: 40px;
+   text-align: center;
+   line-height: 1.60;
+   text-transform: capitalize;
+}
