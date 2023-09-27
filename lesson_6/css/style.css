@@ -1,0 +1,217 @@
+@import url(reset.css);
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,600);
+@import url(https://fonts.googleapis.com/css?family=Inter:regular);
+@import url(https://fonts.googleapis.com/css?family=DM+Serif+Text:regular);
+
+.body{
+   font-family: "Inter", sans-serif;
+}
+.consulting{
+   color: #5c5470;
+   margin-left: 600px;
+   font-family: "Poppins", sans-serif;
+   font-size: 40px;
+   text-transform: uppercase;
+   margin-bottom: 50px;
+   margin-top: 40px;
+   text-shadow: 2px -2px 4px #6B77E5, 2px 4px 6px #5e63b6;
+}
+
+.start-page{
+margin-left: 380px;
+color: #7D7D7D;
+font-size: 18px;
+line-height: 1.46;
+}
+
+.start-page img{
+   width: 715px;
+   height: 477px;
+   margin-bottom: 23px;
+}
+
+.business h1{
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 1.27;
+   text-transform: capitalize;
+   margin-bottom: 8px;
+}
+
+.business{
+   margin-bottom: 42px;
+}
+
+.multi{
+   margin-bottom: 40px;
+}
+
+.multi h2{
+color: #6B77E5;
+font-family: "Poppins", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.27;
+margin-bottom: 12px;
+}
+
+[class*= "text"]{
+   display: inline-block;
+}
+
+.benefits img{
+   width: 400px;
+   height: 300px;
+   margin-right: 30px;
+}
+
+.benefits h3{
+color: #37393F;
+font-family: "Poppins", sans-serif;
+font-size: 25px;
+font-weight: 600;
+line-height: 1.27;
+margin-bottom: 15px;
+}
+
+.benefits h4{
+color: #40DDB6;
+font-family: "Poppins", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.27;
+margin-bottom: 20px;
+}
+
+.benefits li{
+   margin-bottom: 50px;
+}
+
+/* Jewellery */
+
+.jewellery-title{
+   color: #e85b48;
+   margin-left: 600px;
+   font-family: "Poppins", sans-serif;
+   font-size: 40px;
+   text-transform: uppercase;
+   text-shadow: 2px -4px 16px #a55233,2px 6px 16px #b5592a;
+}
+
+.jewellery{
+  max-width: 1169px;
+  margin: 50px auto 50px;
+}
+
+.title{
+   display: inline-block;
+   width: 500px;
+   margin-right: 38px;
+}
+
+.title h2{
+color: #D06B00;
+font-size: 28px;
+margin-bottom: 14px;
+}
+
+.title h3{
+color: #0E333D;
+font-family: DM Serif Text;
+font-size: 59px;
+line-height: 1.46;
+margin-bottom: 26px;
+}
+
+.jewellery img{
+ width: 273px;
+height: 518px;
+margin-right: 22px;
+}
+
+.title p{
+color: #474747;
+font-size: 20px;
+line-height: 1.60;
+}
+
+/* Article */
+
+.container{
+   margin: 0 auto;
+   max-width: 1169px;
+   color: #484848;
+}
+
+.block{
+   margin-bottom: 20px;
+   padding: 20px;
+}
+.block h1{
+   color: #2c786c;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-size: 26px;
+   margin-bottom: 10px;
+}
+
+.block p{
+   font-size: 18px;
+}
+
+.meditation,
+.joga{
+   padding: 40px 20px;
+}
+.meditation h2{
+   color: #2d887d;
+   font-family: "Poppins", sans-serif;
+   font-size: 22px;
+   font-style: oblique;
+   margin-bottom: 14px;
+   line-height: 1.27;
+   text-align: center;
+   
+}
+
+.meditation p,
+.joga p,
+.conclusion p{
+font-size: 18px;
+overflow: auto;
+margin-bottom: 10px;
+}
+
+.joga p{
+   overflow: visible;
+}
+
+.joga span{
+   font-size: 18px;
+}
+.joga h2{
+   color: #7fa99b;
+   font-family: "Poppins", sans-serif;
+   font-style: oblique;
+   font-size: 22px;
+   margin-bottom: 10px;
+   line-height: 1.27;
+   text-align: center;
+}
+
+[class*= "joga"] img{
+   max-width: 100px;
+   vertical-align: middle;
+   
+}
+
+.conclusion h3{
+   font-family: "Poppins", sans-serif;
+   font-size: 22px;
+   color: #5c5470;
+   line-height: 1.40;
+}
+
