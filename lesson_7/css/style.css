@@ -1,0 +1,251 @@
+@import url(fonts.css);
+@import url(https://fonts.googleapis.com/css?family=Cormorant+Infant:700);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(reset.css);
+
+body{
+color: #7D7D7D;
+font-family: "Inter", sans-serif;
+}
+
+/* Project information */
+.container,
+.licencing,
+.euphoria{
+   padding: 50px 20px;
+   margin: 0 auto;
+   max-width: 833px;
+}
+
+.title{
+ color: #37393F;
+font-family: "Poppins", sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 1.27;
+margin-bottom: 13px;
+}
+
+[class*="text"] p{
+   font-size: 18px;
+   line-height: 1.46;
+}
+
+
+.first-prgh p{
+margin-bottom: 35px;
+}
+
+.list li,
+.second-list li{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.46;
+  margin-bottom: 35px;
+}
+
+.second-prgh p{
+   margin-bottom: 35px;
+}
+
+/* Licencing */
+
+.template{
+   margin: 0 auto 16px;
+   width: 200px;
+}
+.box{
+   display: inline-block;
+   width: 12px;
+   height: 12px;
+   background-color: #40DDB6;
+}
+
+.templateinfo{
+color: #37393F;
+font-size: 18px;
+font-weight: 500;
+}
+
+.sub-title{
+color: #37393F;
+text-align: center;
+font-family: "Poppins", sans-serif;
+font-size: 60px;
+font-weight: 700;
+line-height: 1.21;
+margin-bottom: 70px;
+}
+
+.sub-title3{
+color: #37393F;
+font-family: "Poppins", sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 1.21;
+margin-bottom: 11px;
+}
+
+.sub-title4{
+color: #37393F;
+font-family: "Poppins", sans-serif;
+font-size: 30px;
+font-weight: 700;
+margin-bottom: 8px;
+}
+
+.sub-title4 span{
+color: #40DDB6;
+font-family: "Poppins", sans-serif;
+font-size: 30px;
+font-weight: 400;
+}
+
+.textimg{
+   color: #40DDB6;
+}
+
+.textgreen span{
+   color: #40DDB6;
+   font-weight: 500;
+}
+
+.text-icons{
+   margin-bottom: 32px;
+}
+
+.text-photography,
+.pexels-text{
+   margin-bottom: 24px;
+}
+
+.unsplash-text{
+   margin-bottom: 100px;
+}
+
+/* Euphoria */
+
+
+.line{
+   display: inline-block;
+   background-color: #8A33FD;
+   border-radius: 10px;
+   width: 6px;
+   height: 28px;
+}
+
+.title2{
+display: inline-block;
+color: #3C4242;
+font-family: "Core Sans C", sans-serif;
+font-size: 28px;
+font-weight: 600;
+line-height: 1.19;
+letter-spacing: 0.56px;
+margin-left: 15px;
+}
+
+.block{
+   margin-bottom: 30px;
+}
+
+.title3{
+color: #807D7E;
+font-family: "Core Sans C", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.67;
+letter-spacing: 0.4px;
+margin-bottom: 25px;
+}
+
+.text-clothing{
+margin-bottom: 25px;
+}
+
+.last-text-clothing span,
+.text-clothing span{
+font-family: "Causten", sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 1.67;
+letter-spacing: 0.4px;
+}
+
+.last-text-clothing{
+   margin-bottom: 20px;
+}
+
+/* Jewellery */
+.jewellery{
+   max-width: 1100px;
+   margin: 0 auto;
+}
+
+.content-jewellery{
+   margin-right: 75px;
+   max-width: 503px;
+   padding: 80px 0;
+   display: inline-block;
+}
+.sub-title3-jew{
+color: #D58417;
+font-family: "Cormorant Infant", sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 1;
+margin-bottom: 27px;
+}
+
+.sub-title-jew{
+color: #000;
+width: 503px;
+font-family: "Cormorant Infant", sans-serif;
+font-size: 64px;
+font-weight: 700;
+line-height: 1;
+margin-bottom: 31px;
+}
+
+.text-jewellery p{
+color: #606060;
+width: 489px;
+font-family: "Cormorant Infant", sans-serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 1.4; 
+}
+
+.jewellery-images{
+   display: inline-block;
+   vertical-align: top;
+   font-size: 0;
+}
+
+.image{
+   display: inline-block;
+   vertical-align: middle;
+   border-radius: 235px;
+   border: 1px solid #502203;
+}
+.women-flower{
+   width: 177px;
+   height: 336px;
+   margin-right: 30px;
+}
+
+.women{
+   width: 307px;
+   height: 500px;
+
+}
+
+.women-flower img{
+vertical-align: top;
+margin: 14px 0px 0px -10px;
+}
+
+.women img{
+   margin: 19px 0 0 -10px;
+}
