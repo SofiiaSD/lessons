@@ -1,0 +1,425 @@
+@import url(fonts.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+@import url(reset.css);
+
+header{
+   margin-bottom: 40px;
+   background: url(../img/wall.jpg) 0 0 / cover;
+   text-align: center;
+}
+
+.container{
+   margin: 0 auto;
+   width: 400px;
+   padding: 20px 0;
+}
+
+.container h1{
+color: #3e282f;
+font-size: 40px;
+margin-bottom: 16px;
+text-transform: uppercase;
+}
+
+
+.container li{
+   color: #311b22;
+   margin-bottom: 16px;
+   text-transform: capitalize;
+   font-size: 18px;
+}
+
+.container li a{
+   border-bottom: 2px dashed #311b22 ;
+}
+
+/* Euphoria */
+.euphoria{
+   max-width: 1240px;
+   margin: 0 auto 40px ;
+   font-size: 0;
+}
+
+.left-block{
+background: url(../img/leaves.png) no-repeat;
+padding: 183px 74px 175px 74px;
+}
+
+.left-block,
+ .right-block{
+display: inline-block;
+width: 614px;
+height: 640px;
+vertical-align: middle;
+}
+
+.left-block h2{
+   color: #fff;
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 800;
+   font-size: 34px;
+   line-height: 1.47;
+   letter-spacing: 0.208px;
+   max-width: 466px;
+   margin-bottom: 30px;
+}
+
+
+.left-block p{
+color: #FFF;
+font-family: "Causten", sans-serif;
+font-size: 20px;
+font-weight: 300;
+letter-spacing: 1px;
+width: 451px;
+margin-bottom: 50px;
+}
+
+.left-block a{
+color: #3C4242;
+text-align: center;
+font-family: "Causten", sans-serif;
+font-size: 18px;
+font-weight: 600;
+border: 1px solid black;
+background-color: #fff;
+padding: 12px 44px;
+min-height: 640px;
+border-radius: 8px;
+}
+
+.right-block{
+   background: url(../img/people.png) center no-repeat;
+}
+
+/* Consulting */
+.consulting{
+   margin: 0 auto 40px;
+   max-width: 1240px;
+}
+.box-text{
+   margin-bottom: 16px;
+}
+.box{
+   width: 12px;
+   height: 12px;
+   background-color: #40DDB6;
+   display: inline-block;
+   margin-right: 6px;
+}
+
+.box-text p{
+color: #37393F;
+font-family: "Inter", sans-serif;
+font-size: 18px;
+font-weight: 500;
+display: inline-block;
+}
+
+.sub-title-cons{
+color: #37393F;
+font-family: "Poppins", sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 1.21; 
+margin-bottom: 20px;
+}
+
+.paragraph-consulting p{
+color: #7D7D7D;
+font-family: "Inter", sans-serif;
+font-size: 18px;
+line-height: 1.46; 
+margin-bottom: 15px;
+max-width: 673px;
+}
+
+.list{
+   margin-bottom: 43px;
+}
+
+.list_item{
+color: #37393F;
+font-family: "Poppins", sans-serif;
+font-size: 20px;
+background: url(../img/vector.svg) no-repeat;
+padding-left: 35px;
+line-height: 1.65;
+margin-bottom: 23px;
+min-height: 30px;
+}
+
+.experience{
+display: inline-block;
+border: 1px solid #E3E3E3;
+width: 295px;
+padding: 31px 32px 32px 32px;
+}
+
+.icon{
+background: url(../img/icon-1.svg) 32px 31px / 40px  no-repeat;
+padding-left: 90px;
+min-height: 40px;
+}
+
+.experience h3,
+.awards-winner h3{
+color: #37393F;
+font-family: "Poppins", sans-serif;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 3px;
+line-height: 1.5;
+
+}
+
+.experience p,
+.awards-winner p{
+color: #7D7D7D;
+font-family: "Inter", sans-serif;
+line-height: 1.35;
+}
+
+.awards-winner{
+display: inline-block;
+border: 1px solid #E3E3E3;
+padding: 31px 37px 32px 37px;
+width: 295px;
+margin-left: 21px;
+}
+
+.icon-2{
+   background: url(../img/icon-2.svg) 32px 31px / 40px no-repeat;
+   padding-left: 90px;
+   min-height: 40px;
+}
+
+.awards-winner,
+.experience{
+   margin-bottom: 37px;
+}
+
+.link{
+color: #FFF;
+background-color: #6B77E5;
+text-align: center;
+font-family: "Inter", sans-serif;
+font-size: 18px;
+font-weight: 600;
+text-transform: capitalize;
+width: 184px;
+padding: 21px 27px 22px 27px;
+}
+
+/* Consulting client */
+
+.consulting-client{
+   margin: 0 auto 40px;
+   max-width: 1240px;
+}
+
+.box-consulting .box{
+width: 12px;
+height: 12px;
+background-color: #40DDB6;
+display: inline-block;
+margin-right: 5px;
+}
+
+.box-consulting p{
+color: #37393F;
+font-family: "Inter", sans-serif;
+font-size: 18px;
+font-weight: 500;
+display: inline-block;
+}
+
+.box-consulting{
+   margin-bottom: 12px;
+   text-align: center;
+}
+
+.subtitle-cons-client{
+color: #37393F;
+text-align: center;
+font-family: "Poppins", sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 1.21;
+margin-bottom: 12px;
+}
+
+.text-cons-client p{
+color: #7D7D7D;
+text-align: center;
+font-family: "Inter", sans-serif;
+font-size: 18px;
+line-height: 1.46;
+max-width: 852px;
+margin: 0 auto;
+}
+
+.text-cons-client{
+margin-bottom: 47px;
+}
+
+.cons-client-item{
+   display: inline-block;
+   
+}
+
+.first-block,
+.second-block{
+   margin-bottom: 58px;
+   margin-right: 34px;
+}
+
+.item{
+color: #37393F;
+font-family: "Poppins", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.27;
+}
+
+.item-date {
+color: #7D7D7D;
+font-family: "Inter", sans-serif;
+font-size: 14px;
+line-height: 1.46; 
+font-weight: 400;
+background: url(../img/calendar.svg) 0 0 / 22px no-repeat;
+padding-left: 25px;
+}
+
+.cons-client-item h4{
+margin-bottom: 10px;
+}
+
+.image-1{
+background: url(../img/laptop.png) 0 0 / cover no-repeat;
+width: 384px;
+height: 501px;
+margin-bottom: 24px;
+}
+
+ .image-2{
+ background: url(../img/man.png) center / cover no-repeat;
+width: 384px;
+height: 501px;
+margin-bottom: 24px;
+}
+
+.image-3{
+background: url(../img/phone.png) 0 0 / cover no-repeat;
+width: 384px;
+height: 501px;
+margin-bottom: 24px;
+}
+
+.image-4{
+background: url(../img/woman.png)0 0/ cover no-repeat;
+width: 384px;
+height: 501px;
+margin-bottom: 24px;
+}
+
+.image-5{
+background: url(../img/paper.png) 0 0 / cover no-repeat;
+width: 384px;
+height: 501px;
+margin-bottom: 24px;
+}
+
+.image-6{
+background: url(../img/laptopcup.png) 0 0 / cover no-repeat;
+width: 384px;
+height: 501px;
+margin-bottom: 24px;
+}
+
+/* Euphoria */
+
+.clothing-for-women{
+margin: 0 auto 50px;
+max-width: 1220px;
+}
+
+.subtitle-clothing{
+color: #3C4242;
+font-family: "Core Sans C", sans-serif;
+font-size: 28px;
+font-weight: 600;
+line-height: 1.19;
+letter-spacing: 0.56px;
+background: url(../img/line.png) 0 2px no-repeat;
+padding-left: 15px;
+margin-bottom: 30px;
+}
+
+.title3-euphoria{
+color: #807D7E;
+font-family: "Core Sans C", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.67;
+letter-spacing: 0.4px;
+margin-bottom: 25px;
+}
+
+.paragraph-euphoria p{
+color: #807D7E;
+font-family: "Causten",sans-serif;
+font-size: 20px;
+line-height: 1.67;
+letter-spacing: 0.4px;
+margin-bottom: 20px;
+}
+
+.paragraph-euphoria span{
+color: #807D7E;
+font-family: "Causten", sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 1.67;
+letter-spacing: 0.4px;
+}
+
+.link-euphoria{
+color: #807D7E;
+font-family: "Core Sans C", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.67;
+letter-spacing: 0.4px;
+}
+
+/* Practise */
+
+.practise{
+font-family: "Core Sans C", sans-serif;
+font-size: 40px;
+font-weight: 600;
+margin-bottom:  20px;
+text-align: center;
+}
+
+
+
+.block{
+ padding: 20px;
+ background:linear-gradient(90deg, rgba(127,185,160,1) 0%, rgba(118,152,145,0.9136904761904762) 48%, rgba(53,93,40,0.3982843137254902) 96%) 20px 50px / 280px 40px no-repeat ,url(../img/river.jpg) right top / 50% no-repeat, url(../img/sky.jpg) ;
+margin-bottom: 20px;
+}
+
+.block1{
+   min-height: 200px;
+   background:  url(../img/cat.jpg) 250px 20px / 100px no-repeat, url(../img/giraffe.jpg) 586px 20px / 100px no-repeat, url(../img/dog-1.jpg) 886px 20px / 100px no-repeat, url(../img/dog.jpg) 1186px 20px / 100px no-repeat, radial-gradient(circle, rgba(167,189,244,1) 0%, rgba(10,84,138,0.7876400560224089) 30%, rgba(59,155,232,0.48511904761904767) 99%) right bottom / 300px;
+   margin-bottom: 20px;
+}
+
+.block2{
+   background: url(../img/river.jpg) right top / cover fixed no-repeat;
+}
+
