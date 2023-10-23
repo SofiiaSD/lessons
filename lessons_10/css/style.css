@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:200,300,regular,500,600,700);
+@import url(reset.css);
+
+body{
+   background-color: #e7eaf6;
+}
+
+
+.icons{
+   border: 2px solid #007bb902;
+   box-shadow: inset 0px 0px 14px 6px #a3bddd;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px 15px;
+   background-color: #cadefc;
+   margin-bottom: 40px;
+}
+
+.icons > *:not(:last-child){
+   margin-bottom: 30px;
+}
+
+.subtitle{
+   font-family: "Josefin Sans",sans-serif;
+   font-weight: 700;
+   font-size: 36px;
+   letter-spacing: 2px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #90f6d7;
+   text-shadow: 2px 0px #5f5dbd, 2.5px 0px #5f5dbd, 3px 0px #5f5dbd, 3.5px 0px #5f5dbd;
+}
+
+.block{
+   text-align: center;
+}
+
+.block > img:not(:last-child){
+   margin-right: 32px;
+}
+
+.icon-block-third img:first-child{
+   width: 30px;
+}
+
+.icon-block-third img:nth-child(2){
+   width: 30px;
+}
+
+.element-design{
+   border: 1px solid #4f3b785a;
+   box-shadow: inset 0px 0px 8px 6px #927fbf;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px 15px;
+   background-color: #bfb6e8;
+   margin-bottom: 40px;
+}
+
+.element-design > *:not(:last-child){
+   margin-bottom: 30px;
+}
+
+.content{
+   border: 1px solid #ffb5b5;
+   box-shadow: inset 0px 0px 10px 6px #ffb5b5;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px 15px;
+   background-color: #ffcbcb;
+   margin-bottom: 40px;
+}
+
+
+.content .subtitle{
+margin-bottom: 20px;
+}
+
+.content-first{
+   margin-bottom: -70px;
+}
+
+.content-first img:first-child{
+   max-width: 600px;
+}
+
+.content img:nth-child(2){
+   max-width: 400px;
+}
+
+.content-second img{
+   max-width: 400px;
+}
+
+.content-second{
+   padding-left: 268px;
+}
