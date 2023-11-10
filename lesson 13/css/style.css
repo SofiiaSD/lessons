@@ -1,0 +1,117 @@
+@import url(reset.css);
+
+.wrapper{
+   overflow: clip;
+   min-height: 100%;
+}
+
+body{
+   background-color: #c4c1e0;
+}
+
+.main__subtitle{
+   color: #2b36aee8;
+   text-shadow: 5px 4px 5px #6c71cd, 5.5px 4.5px 5px #6c71cd ;
+   font-size: 38px;
+   margin: 0 auto;
+   max-width: 300px;
+   margin-bottom: 30px;
+   padding: 40px;
+}
+
+.main__blocks{
+   margin: 0 auto;
+   max-width: 700px;
+
+}
+.main__block{
+   background-color: #dbd8e3;
+   display: inline-block;
+   width: 160px;
+   height: 160px;
+   margin: 30px;
+}
+
+.item{
+   background-color: #7c73e6;
+   width: 160px;
+   height: 160px;
+}
+
+
+.translate:hover .translate__item{
+   transform: translate(10%, -20%);
+}
+
+
+.scale__item2{
+position: relative;
+}
+
+.scale:hover .scale__item2{
+   transform: scale(0.5);
+   /* transform: scale(1, 0.5); */
+   /* transform: scale(-1, 1); */
+}
+
+.scale{
+   position: relative;
+}
+
+.scale__item1{
+   position: absolute;
+   top: 0;
+   left: 80;
+   background-color: #9896f1;
+   width: 160px;
+   height: 160px;
+}
+
+.scale__item1{
+   transform: scale(0.8);
+}
+
+.rotate:hover .rotate__item{
+   transform: rotate(-70deg);
+   /* transform: rotate(40deg); */
+}
+
+.skew:hover .skew__item{
+   transform:skew(20deg, 40deg);
+}
+
+.matrix:hover .matrix__item{
+   transform: matrix(1, 2, 1, 0, 2, 1);
+}
+
+.trans-orig:hover .trans-orig__item{
+   transform: rotate(-10deg);
+   transform-origin: 9px 20px;
+}
+
+
+.block-3d{
+   perspective: 100px;
+   perspective-origin: center;
+   /* transform-style: preserve-3d; */
+}
+
+.translate3d:hover .translate3d__item{
+transform: translate3d(10px, 30px, 70px);
+}
+
+.scale3d:hover .scale3d__item{
+   transform: scale3d(1, 2, 1);
+}
+
+.rotate3d:hover .rotate3d__item{
+   transform: rotate3d(50, 30, 200, 50deg);
+}
+
+.trans-style:hover .trans-style__item{
+   transform: rotateX(30deg);
+}
+
+.subtitle-car:hover{
+color: #1b2378e8;
+}
