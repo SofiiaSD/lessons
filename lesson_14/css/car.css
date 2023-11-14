@@ -1,0 +1,333 @@
+@import url(reset.css);
+
+.wrapper{
+   overflow: clip;
+   min-height: 100%;
+}
+
+.main__car{
+   border: 2px solid black;
+   max-width: 1400px;
+   height: 400px;
+   padding: 30px;
+   background-color: hsl(113, 30%, 78%);
+   margin: 100px auto;
+   position: relative;
+}
+
+
+.car__all{
+   position: relative;
+   animation-name: car;
+   z-index: 40;
+   animation: car 5s ease-in-out forwards; 
+}
+
+@keyframes car{
+   0%{
+     transform: translate(0);
+   }
+
+   50%{
+      transform: translate(-380px);
+   }
+
+    100%{
+     transform: translate(-800px);
+   } 
+}
+
+.car__header{
+   background-color: white;
+   width: 500px;
+   height: 40px;
+   margin: 80px 800px;
+   border-radius: 60px 30px 13px 10px;
+}
+
+.car__header::before{
+   width: 500px;
+   height: 4px;
+   border-bottom: 2px solid #8594e4;
+   content: "";
+   position: absolute;
+   top: 34px;
+   z-index: 10;
+}
+
+
+.car__main{
+   background-color: white;
+   width: 498px;
+   height: 90px;
+   position: absolute;
+   top: 34px;
+   left: 802px;
+}
+
+.car__main:before{
+   content: "";
+   width: 30px;
+   height: 90px;
+   display: inline-block;
+   position: absolute;
+   top: 0;
+   left: -20px;
+}
+
+
+ 
+.car__window1{
+   width: 130px;
+   height: 60px;
+   border-radius: 100px 6px 0px 2px;
+   display: inline-block;
+   margin-right: 40px;
+   margin-left: 20px;
+   margin-top: 10px;
+   background-color: hsl(113, 30%, 78%);
+
+}
+
+.car__window1 img{
+   width: 200px;
+   height: 100px;
+   position: absolute;
+   bottom: 20px;
+   left: 4px;
+   z-index: 50;
+}
+
+.car__window1 img:hover{
+ transform: scale(2);
+}
+
+.car__window2{
+   width: 60px;
+   height: 60px;
+   border-radius: 10px;
+   display: inline-block;
+   margin-right: 40px;
+   background-color: hsl(113, 30%, 78%);
+   opacity: 0.5; 
+}
+
+@keyframes window{
+   0%{
+opacity: 0.5;
+   }
+
+   100%{
+opacity: 1;
+   }
+}
+
+.car__window3{
+   width: 60px;
+   height: 60px;
+   border-radius: 10px;
+   display: inline-block;
+   margin-right: 40px;
+   background-color: hsl(113, 30%, 78%);
+   opacity: 0.5;
+   z-index: 60; 
+   position: relative;
+   animation-name: window;
+   animation-duration: 0s;
+   animation-delay: 3.5s;
+   animation-fill-mode: forwards; 
+   animation-timing-function: ease-in;
+}
+
+.car__morty img{
+display: inline-block;
+width: 100px;
+height: 100px;
+position: absolute;
+bottom: -6px;
+right: -24px;
+visibility: hidden;
+opacity: 0;
+animation-name: image;
+animation-fill-mode: forwards;
+animation-delay: 3.5s;
+animation-timing-function: ease-in;
+}
+
+.car__morty img:hover{
+   transform: scale(2);
+}
+
+@keyframes image{
+   0%{
+      visibility: hidden;
+      opacity: 0;
+   }
+
+   100%{
+      visibility: visible;
+      opacity: 1;
+}
+}
+
+.car__window4{
+   width: 60px;
+   height: 60px;
+   border-radius: 10px;
+   display: inline-block;
+   background-color: hsl(113, 30%, 78%);
+   opacity: 0.5;
+}
+
+.car__bottom{
+   width: 496px;
+   height: 80px;
+   background-color: #93a7d1;
+   position: absolute;
+   top: 124px;
+   left: 804px;
+}
+
+
+.car__wheel{
+   background-color: black;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+}
+
+.car__wheel::before{
+   content: "";
+   width: 20px;
+   height: 20px;
+   display: inline-block;
+   background-color: #f0ece2;
+   border-radius: 50%;
+   position: absolute;
+   left: 20px;
+   top: 20px;
+}
+
+
+.car__wheel--first{
+   position: absolute;
+   top: 184px;
+   left: 950px;
+}
+
+.car__wheel--second{
+   position: absolute;
+   top: 184px;
+   left: 1158px;
+}
+
+.car__door{
+width: 130px;
+height: 60px;
+border: 1px solid #7e8fb5;
+position: absolute;
+top: 104px;
+left: 822px;
+border-top: 0;
+}
+
+.car__door::before{
+   content: "";
+   display: inline-block;
+   width: 20px;
+   height: 4px;
+   background-color: black;
+   border-radius: 4px;
+   position: absolute;
+   top: 20px;
+   left: 90px;
+}
+
+.car__headlights{
+   width: 10px;
+   height: 20px;
+   background-color: #ececec;
+   border-radius: 10px 0 0 10px;
+   position: absolute;
+   top: 160px;
+   left: 794px;
+}
+
+.car__headlights:hover{
+   box-shadow: 0px 0px 12px #ffe700;
+   background-color: #ffe700;
+}
+
+.car__headlights::before{
+   content: "";
+   display: inline-block;
+   width: 5px;
+   height: 20px;
+   background-color: rgb(252, 42, 42);
+   border-radius: 0px 10px 10px 0px;
+   position: absolute;
+   top: 16px;
+   left: 506px;
+}
+
+.car__headlights:hover::before{
+   box-shadow: 0px 0px 12px rgb(252, 42, 42);
+}
+
+.car__sun{
+   background-color: yellow;
+   box-shadow:0 0 30px #ffe700;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   position: absolute;
+   top: 100px;
+   left: 90px;
+   animation-name: car-sun;
+   animation-iteration-count: infinite;
+   animation-duration: 4s;
+   animation-direction:alternate;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes car-sun{
+   0%{
+    transform: scale(1);
+   }
+   
+100%{
+  transform: scale(1.3);
+}
+}
+
+.car__stop img{
+   width: 380px;
+   height: 380px;
+   display: inline-block;
+   position: absolute;
+   top: 120px;
+   left: 180px;
+   opacity: 1;
+   /* animation-name: stop; 
+   animation-duration: 4s;
+   animation-delay: 4s; */
+}
+
+@keyframes stop{
+   0%{
+      opacity: 1;
+   }
+
+   100%{
+      opacity: 0;
+   }
+}
+
+.car__man img{
+width: 50px;
+height: 100px;
+display: inline-block;
+position: absolute;
+top: 300px;
+left: 440px;
+}
