@@ -115,6 +115,7 @@
                   <button class="form__second-btn form__button" type="reset">Cancel</button>
                </div>
          </div>
+         </form>
 
          <!-- Check out -->
 
@@ -257,64 +258,61 @@
                   </div>
                   <div class="checkout__line"><img src="img/long-line.svg" alt="Line"></div>
                </div>
-
-
-               <form action="#" method="GET" class="payment">
-                  <div class="payment__desc">
-                     <h2 class="payment__title">Payment Method</h2>
-                     <p class="payment__prgph">All transactions are secure and encrypted.</p>
-                  </div>
-
-                  <div class="payment__content">
-                     <div class="payment__first-column">
-                        <input checked class="payment__input" name="payment" value="credit-card" id="credit"
-                           type="radio">
-                        <label class="payment__label" for="credit">Credit Card</label>
-                        <div class="payment__prgph payment__prgph--padding">
-                           <p>We accept all major credit cards.</p>
-                        </div>
-
-                        <ul class="payment__list">
-                           <li class="payment__list-items"><img src="img/google.jpg" alt="Google pay"></li>
-                           <li class="payment__list-items"><img src="img/visa.jpg" alt="Visa"></li>
-                           <li class="payment__list-items"><img src="img/paypal.jpg" alt="Pay pal"></li>
-                           <li class="payment__list-items"><img src="img/paypass.jpg" alt="Pay pass"></li>
-                        </ul>
-                        <div class="payment__row">
-                           <input required placeholder="Card number" type="text">
-                        </div>
-                        <div class="payment__row">
-                           <input required placeholder="Name of card" type="text">
-                        </div>
-                        <div class="payment__row">
-                           <input required placeholder="Expiration date (MM/YY)" type="text">
-                        </div>
-                        <div class="payment__row">
-                           <input required placeholder="Security Code" type="text">
-                           <button class="payment__eye" type="button"></button>
-                        </div>
-                     </div>
-
-                     <div class="payment__second-column">
-                        <input class="payment__input" name="payment" value="cash-delivery" id="cash-delivery"
-                           type="radio">
-                        <label class="payment__label" for="cash-delivery">Cash on delivery</label>
-                        <div class="payment__prgph payment__prgph--padding">
-                           <p>Pay with cash upon delivery.</p>
-                        </div>
-                     </div>
-
-                     <div class="payment__third-column">
-                        <input class="payment__input" name="payment" value="paypol" id="paypol" type="radio">
-                        <label class="payment__label" for="paypol">Paypol</label>
-                     </div>
-                  </div>
-
-                  <div class="payment__btn">
-                     <button class="payment__btn-button" type="submit">Pay Now</button>
-                  </div>
-               </form>
             </form>
+
+
+            <form action="#" method="GET" class="payment">
+               <div class="payment__desc">
+                  <h2 class="payment__title">Payment Method</h2>
+                  <p class="payment__prgph">All transactions are secure and encrypted.</p>
+               </div>
+
+               <div class="payment__content">
+                  <div class="payment__first-column">
+                     <input checked class="payment__input" name="payment" value="credit-card" id="credit" type="radio">
+                     <label class="payment__label" for="credit">Credit Card</label>
+                     <div class="payment__prgph payment__prgph--padding">
+                        <p>We accept all major credit cards.</p>
+                     </div>
+
+                     <ul class="payment__list">
+                        <li class="payment__list-items"><img src="img/google.jpg" alt="Google pay"></li>
+                        <li class="payment__list-items"><img src="img/visa.jpg" alt="Visa"></li>
+                        <li class="payment__list-items"><img src="img/paypal.jpg" alt="Pay pal"></li>
+                        <li class="payment__list-items"><img src="img/paypass.jpg" alt="Pay pass"></li>
+                     </ul>
+                     <div class="payment__row">
+                        <input required placeholder="Card number" type="text">
+                     </div>
+                     <div class="payment__row">
+                        <input required placeholder="Name of card" type="text">
+                     </div>
+                     <div class="payment__row">
+                        <input required placeholder="Expiration date (MM/YY)" type="text">
+                     </div>
+                     <div class="payment__row">
+                        <input required placeholder="Security Code" type="text">
+                        <button class="payment__eye" type="button"></button>
+                     </div>
+                  </div>
+
+                  <div class="payment__second-column">
+                     <input class="payment__input" name="payment" value="cash-delivery" id="cash-delivery" type="radio">
+                     <label class="payment__label" for="cash-delivery">Cash on delivery</label>
+                     <div class="payment__prgph payment__prgph--padding">
+                        <p>Pay with cash upon delivery.</p>
+                     </div>
+                  </div>
+
+                  <div class="payment__third-column">
+                     <input class="payment__input" name="payment" value="paypol" id="paypol" type="radio">
+                     <label class="payment__label" for="paypol">Paypol</label>
+                  </div>
+               </div>
+
+               <div class="payment__btn">
+                  <button class="payment__btn-button" type="submit">Pay Now</button>
+               </div>
             </form>
          </div>
 
