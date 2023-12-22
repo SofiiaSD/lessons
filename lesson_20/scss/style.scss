@@ -1,0 +1,326 @@
+@import "_reset.scss";
+@import "_fonts.scss";
+
+.wrapper{
+   overflow: clip;
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.wrapper main{
+   flex-grow: 1;
+}
+
+[class*="__container"]{
+   max-width: 1600px;
+   margin: 0 auto;
+}
+
+body{
+   background: #FFF9F4;
+}
+
+.header {
+
+   font-family: "Merriweather", sans-serif;
+
+   &__container {
+      padding-top: 20px;
+      margin-bottom: 141px;
+      &::after{
+         content: "";
+         background: rgba(131, 131, 131, 0.21);
+         height: 1px;
+         width: 1600px;
+         display: block;
+         margin-top: 41px;
+      }
+   }
+
+   // .header__content
+
+   &__content {
+      display: flex;
+      justify-content: center;
+   }
+
+   // .header__subtitle
+
+   &__subtitle {
+   color: #000;
+   font-size: 30px;
+   font-style: italic;
+   font-weight: 700;
+   align-self: center;
+   margin-right: 127px;
+   }
+
+   // .header__list
+
+   &__list {
+      display: flex;
+      gap: 36px;
+      align-self: center;
+   }
+
+   &__link{
+   margin-left: 92px;
+   color: #FFF;
+   font-weight: 700;
+   border-radius: 5px;
+   background-color: #0E333D;
+   padding: 12px 29px 14px 26px;
+   transition: 0.3s ease;
+
+   &:hover{
+      background-color: #194d5c;
+   }
+   }
+}
+
+.list {
+
+   &__item {
+   color: #000;
+   font-size: 20px;
+   display: flex;
+
+   &:hover{
+   font-weight: 700;
+   text-decoration-line: underline;
+   }
+
+      &--bold{
+   font-weight: 700;
+   text-decoration-line: underline;
+      }
+   }
+
+   &__arrow{
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 100%;
+   padding-left: 4px;
+   transition: transform 0.3s;
+   &:hover{
+   transform: rotate(180deg);
+   }
+}
+}
+
+.main{
+   &__jewellery{
+   margin-bottom: 140px;
+   }
+}
+
+
+.jewellery {
+
+ font-family: "DM Serif Text", sans-serif;
+
+      /* 28px */
+   &__container {
+      max-width: 1200px;
+      display: flex;
+   }
+
+   // .jewellery__content
+
+   &__content {
+      max-width: 577px;
+      flex: 0 1 33.333%;
+      margin-right: 86px;
+   }
+
+   // .jewellery__subtitle
+
+   &__subtitle {
+      color: #0E333D;
+      font-family:" DM Serif Text", serif;
+      font-size: 78px;
+      width: 514px;
+      margin-bottom: 32px;
+   }
+
+   // .jewellery__prgph
+
+   &__prgph {
+      color: #727272;
+      font-family: "Inter", sans-serif;
+      font-size: 22px;
+      margin-bottom: 48px;
+   }
+
+   // .jewellery__link
+
+   &__link {
+      color: #FFF;
+      font-size: 28px;
+      border-radius: 5px;
+      background-color: #0E333D;
+      margin-right: 47px;
+      padding: 10px 44px;
+      transition: 0.3s ease;
+      &:hover {
+            background-color: #194d5c;
+         }
+   }
+
+
+   &__video {
+   color: #0E333D;
+   font-size: 28px;
+   text-decoration: underline;
+   &:hover {
+      color: #194d5c;
+      text-decoration: none;
+      }
+   }
+}
+
+
+.image {
+
+   // .image__first
+
+   &__first {
+      aspect-ratio: 245 / 467;
+      object-fit: cover;
+      margin-right: 32px;
+   }
+
+   // .image__second
+
+   &__second {
+      aspect-ratio: 245 / 467;
+      object-fit: cover;
+      margin-top: -50px;
+   }
+}
+
+.main {
+
+   // .main__products
+
+   &__products {
+      background-color: #0E333D;
+      color: white;
+   }
+}
+
+.products {
+
+   // .products__container
+
+   &__container {
+      padding: 94px 0;
+      max-width: 1200px;
+   }
+
+   // .products__content
+
+   &__content {
+      text-align: center;
+   }
+
+   // .products__subtitle
+
+   &__subtitle {
+   font-family: "DM Serif Text", serif;
+   font-size: 48px;
+   margin-bottom: 23px;
+   }
+
+   // .products__prgph
+
+   &__text{
+   color: #EBEBEB;
+   font-family:"Raleway", serif;
+   font-size: 20px;
+   font-weight: 500;
+   margin-bottom: 34px;
+   }
+
+   // .products__list
+
+   &__list {
+      display: flex;
+      margin-bottom: 77px;
+      justify-content: center;
+      gap: 41px;
+   }
+
+   // .products__image
+
+   &__cards {
+      display: flex;
+      gap: 30px;
+   }
+}
+
+.list {
+
+   // .list__material
+
+   &__material a{
+   font-family: "Raleway", sans-serif;
+   font-size: 18px;
+   font-weight: 600;
+   transition: transform 0.3s ease;
+   }
+
+   &__material a:hover{
+   text-decoration: underline;
+   }
+   &__material:first-child a{
+   text-decoration: underline;
+   }
+}
+
+.cards {
+
+   &__link{
+flex: 0 1 33.333%;
+   }
+
+   &__card{
+border-radius: 5px;
+width: 100%;
+aspect-ratio: 270 / 270;
+object-fit: cover;
+margin-bottom: 17px;
+transition: transform 0.3s ease-out;
+   }
+
+   &__card:hover{
+      transform: scale(1.02);
+   }
+
+   &__about{
+   font-family: "Cormorant Infant", serif;
+   font-size: 24px;
+   font-weight: 700;
+   margin-bottom: 20px;
+   transition: color 0.3s;
+   }
+
+   &__about:hover,
+   &__price:hover{
+      color: rgb(213, 213, 213);
+   }
+
+   &__price{
+   font-family: "Cormorant Infant", serif;
+   font-size: 24px;
+   font-weight: 700; 
+   transition: color 0.3s;
+   }
+}
+
+
+
+
+
+
